@@ -1,7 +1,6 @@
 package top.webdbw.monsterhandbook.model;
 
-import java.util.List;
-
+import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
@@ -31,9 +30,11 @@ public class Monster extends RealmObject {
 
     public long skill;          //技巧
 
-    public List<Halo> halos;    //光环
+    public RealmList<Halo> halos;                   //光环
 
-    public List<Instrument> instruments;    //法器
+    public RealmList<Instrument> instruments;       //法器
 
-    public List<Feature> features;  //特征
+    public RealmList<Feature> features;             //特征
+
+    public RealmList<Decent> decents;               //血统
 }

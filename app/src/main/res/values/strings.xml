@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MonsterHandBook</string>
+
+    <string name="add_monster">添加妖怪</string>
+    <string name="add_halo">添加光环</string>
+    <string name="add_instrument">添加法器</string>
+    <string name="add_feature">添加特征</string>
+    <string name="add_decent">添加血统</string>
+
+    <string name="monster_name">妖怪名称</string>
+    <string name="monster_halo">妖怪光环</string>
+    <string name="monster_attribute">妖怪属性</string>
+    <string name="monster_age">妖怪年纪</string>
+    <string name="monster_feature">妖怪特性</string>
+    <string name="monster_instrument">妖怪法器</string>
+    <string name="monster_decent">妖怪血统</string>
 </resources>
